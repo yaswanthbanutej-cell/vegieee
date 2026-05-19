@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Veg & Fruit Market</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">Fresh, healthy, local</p>
+        <h1>Veg & Fruit Market</h1>
+        <p>Choose organic vegetables and seasonal fruits for your home kitchen.</p>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="products-panel">
+        <div class="section-header">
+          <h2>Fresh Produce</h2>
+          <p>Browse fruits and vegetables ready to add to your basket.</p>
+        </div>
+        <div id="products" class="products-grid"></div>
+      </section>
+
+      <aside class="cart-panel">
+        <div class="section-header">
+          <h2>Your Cart</h2>
+          <p>Review items and place your order.</p>
+        </div>
+        <div id="cartItems" class="cart-items"></div>
+        <div class="cart-summary">
+          <div>
+            <span>Subtotal</span>
+            <strong id="cartTotal">$0.00</strong>
+          </div>
+          <button id="checkoutBtn" class="checkout-btn" disabled>Checkout</button>
+        </div>
+      </aside>
+    </main>
+
+    <footer class="footer">
+      <p>Made with fresh produce in mind.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
